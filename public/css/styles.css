@@ -176,6 +176,10 @@ body,
     text-align: center;
 }
 
+.sos-b-contact-us-section a {
+    text-decoration: none;
+}
+
 .sos-b-about-img-container,
 .sos-b-about-description-container {
     width: 40%;
