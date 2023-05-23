@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/* HTML */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* BODY */
+
+body,
+.sos-b-body {
+    font-family: 'DM Sans', sans-serif;
+    /*margin: 0;*/
+    scroll-behavior: smooth;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.sos-b-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 1% 5%;
+    width: 90%;
+}
+
+.sos-b-logo {
+    width: 50%;
+}
+
+.sos-b-menu {
+    display: flex;
+}
+
+.sos-b-menu ul {
+    display: flex;
+    list-style-type: none;
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+.sos-b-menu ul li a {
+    padding: 2.188rem 0.938rem 0;
+    text-decoration: none;
+    color: black;
+    font-size: 1.125rem;
+}
+
+.sos-b-menu ul li a:hover {
+    color: #0065FC;
+    border-top: solid 0.313rem #0065FC;
+}
+
+/* MAIN */
+
+/* main,
+.sos-b-main {
+    width: 90%;
+    margin: auto;
+} */
+
+/* main section {
+    margin: 3% 0;
+} */
+
+
+/* MAIN BANNER */
+
+.sos-b-banner-container {
+    height: 34.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7.5rem;
+    color: white;
+    background-image: url('../img/sos-b-banner.png');
+    /* background: linear-gradient(90deg, #000000 -0.76%, rgba(0, 0, 0, 0) 100%), url('../img/sos-b-banner.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-top: 2.5rem; */
+    margin-bottom: 5rem;
+    background-position: center;
+}
+
+.sos-b-banner-container .sos-b-title {
+    width: 738px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.236rem;
+    line-height: 5.5rem;
+    display: flex;
+    align-items: center;
+    margin: 0.37em 0;
+}
+
+.sos-b-banner-container .sos-b-sub-title {
+    width: 507px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.618rem;
+    line-height: 2.125rem;
+    display: flex;
+    align-items: center;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+}
+
+/* MAIN SERVICES */
+
+.sos-b-services-section,
+.sos-b-about-section,
+.sos-b-contact-us-section {
+    margin-bottom: 12.5rem;
+}
+
+.sos-b-services-section .sos-b-title,
+.sos-b-about-section .sos-b-title,
+.sos-b-contact-us-section .sos-b-title {
+    font-size: 4.236rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.5rem;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    justify-content: center;
+    margin-block-start: 0;
+    margin-block-end: 5rem;
+}
+
+.sos-b-services-container,
+.sos-b-about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sos-b-service-container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sos-b-service-img {
+    width: 12.5rem;
+    height: 12.5rem;
+    background: #C4C4C4;
+    border-radius: 6.25rem;
+}
+
+.sos-b-service-description {
+    text-align: justify;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
+.sos-b-footer {
+    position: absolute;
+    width: 100%;
+    height: 6.25rem;
+    left: 0;
+    /* top: 2939px; */
+    background: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.sos-b-about-img-container,
+.sos-b-about-description-container {
+    width: 40%;
+}
+
+.sos-b-about-img {
+    width: 100%;
+    height: 27.188rem;
+    background: #C4C4C4;
+    object-fit: cover;
+}
+
+.sos-b-about-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sos-b-about-description-container .sos-b-about-title {
+    font-size: 1.618rem;
+}
+
+.sos-b-about-description-container .sos-b-about-description {
+    text-align: justify;
+}
+
+.sos-b-contact-us-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sos-b-contact-us-col-section ul {
+    list-style: none;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+.sos-b-contact-us-col-section ul li {
+    margin-bottom: 0.313rem;
+}
+
+
+.sos-b-services-section .sos-b-title,
+.sos-b-about-section .sos-b-title,
+.sos-b-contact-us-section .sos-b-title {
+    position: relative;
+    animation: animateright 1s
+}
+
+@keyframes animateright {
+    from {
+        top: -30px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* TABLETTE VERSION */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+    .sos-b-banner-container {
+        padding-left: 1rem;
+    }
+
+    .sos-b-banner-container .sos-b-title {
+        width: auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.5rem;
+        line-height: 5.5rem;
+        display: flex;
+        align-items: center;
+        margin: 0.37em 0;
+    }
+
+    .sos-b-banner-container .sos-b-sub-title {
+        width: auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.618rem;
+        line-height: 2.125rem;
+        display: flex;
+        align-items: center;
+        margin-block-start: 0.5rem;
+        margin-block-end: 0.5rem;
+    }
+
+    .sos-b-about-img-container,
+    .sos-b-about-description-container {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .sos-b-services-container {
+        /* justify-content: space-between; */
+    }
+
+}
+
+
+/* MOBILE VERSION */
+@media screen and (max-width: 768px) {
+
+    .sos-b-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 2% 0%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .sos-b-menu {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .sos-b-banner-container {
+        padding-left: 2rem;
+    }
+
+    .sos-b-banner-container .sos-b-title {
+        width: auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.236em;
+        line-height: 3.5rem;
+        display: flex;
+        align-items: center;
+        margin: 0.37em 0;
+    }
+
+    .sos-b-banner-container .sos-b-sub-title {
+        width: auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.618rem;
+        line-height: 2.125rem;
+        display: flex;
+        align-items: center;
+        margin-block-start: 0.5rem;
+        margin-block-end: 0.5rem;
+    }
+
+    .sos-b-service-container {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .sos-b-about-img-container,
+    .sos-b-about-description-container {
+        width: 80%;
+    }
+
+    .sos-b-about-img {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .sos-b-services-section .sos-b-title,
+    .sos-b-about-section .sos-b-title,
+    .sos-b-contact-us-section .sos-b-title {
+        font-size: 3rem;
+    }
+
+    .sos-b-services-section,
+    .sos-b-about-section,
+    .sos-b-contact-us-section {
+        margin-bottom: 5rem;
+    }
+
+}
